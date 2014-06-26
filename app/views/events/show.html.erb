@@ -1,24 +1,24 @@
 <p id="notice"><%= notice %></p>
-
+<table style="width:300px">
 <p>
   <strong>Name:</strong>
   <%= @event.name %>
 </p>
-
+|
 <p>
   <strong>Time:</strong>
   <%= @event.time %>
 </p>
-
+|
 <p>
   <strong>People:</strong>
   <%= @event.people %>
 </p>
-
+|
 <p>
   <strong>Expenditure:</strong>
   <%= @event.expenditure %>
 </p>
-
+</table>
 <%= link_to 'Edit', edit_event_path(@event) %> |
 <%= link_to 'Back', events_path %>
